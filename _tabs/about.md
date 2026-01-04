@@ -6,7 +6,7 @@ title: About
 img_path: /assets/images/
 author: Raymond
 date: 2024-06-28
-category: Jekyll
+category: My Solutions
 layout: post
 ---
 
