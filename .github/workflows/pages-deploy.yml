@@ -47,8 +47,8 @@ jobs:
 
       - name: Build site
         #run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
-        run: bundle exec jekyll build --baseurl "/chripy"
-        #run: bundle exec jekyll build --config _config.yml --baseurl "/chripy" -d _site
+        #run: bundle exec jekyll build --baseurl "/chripy"
+        run: bundle exec jekyll build --config _config.yml --baseurl "/chripy" -d _site
         env:
           JEKYLL_ENV: "production"
 
